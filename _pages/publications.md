@@ -15,8 +15,8 @@ author_profile: true
 In this ongoing project, our mission is to implement a Retrieval-Augmented Generation (RAG) system using Video-LLAMA as the Language Model (LM) for zero-shot retrieval and/or Visual Question Answering (VQA). Our aim is zero-shot retrieval and/or Visual Question Answering (VQA). We plan to leverage advanced models like XCLIP and Video-LLAMA encoders to enhance our research. This project is at the forefront of exploring the fusion of textual and visual data for efficient information retrieval.
 
 
-#### Video Retrieval Application <a name="video-retrieval-application"></a>
-[https://github.com/nargesbh/Video-text-retrieval-tool/blob/main/Video-Retrieval-report.pdf](#video-retrieval-application)
+#### [Video Retrieval Application](https://github.com/nargesbh/Video-text-retrieval-tool/blob/main/Video-Retrieval-report.pdf)
+
 
 - **Duration**: Feb 2023 - Apr 2023
 
