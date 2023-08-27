@@ -1,5 +1,9 @@
 # main links links
 main:
+
+  - title: "Education"
+    url: /portfolio/
+
   - title: "Research"
     url: /publications/
 
@@ -9,8 +13,7 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  # - title: "Portfolio"
-  #   url: /portfolio/
+
         
   # - title: "Blog Posts"
   #   url: /year-archive/
