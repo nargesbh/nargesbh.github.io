@@ -4,25 +4,20 @@ title: "Research Experience"
 permalink: /publications/
 author_profile: true
 ---
+
 ## [University of Hamburg, Germany](https://www.google.com/search?client=safari&rls=en&q=LT+research+group+uni+hamburg&ie=UTF-8&oe=UTF-8)
 
 ### Research Assistant
 *Under [Prof. Chriss Beimann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html) and [Florian Schneider](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/florian-schneider.html)*
 
-#### State-of-the-Art Multi-Modal LLMs for Text-Video Retrieval
-- **Duration**: May 2023 - Present
+1. **State-of-the-Art Multi-Modal LLMs for Text-Video Retrieval**
+   - **Duration**: May 2023 - Present
+   - In this ongoing project, our mission is to implement a Retrieval-Augmented Generation (RAG) system using Video-LLAMA as the Language Model (LM) for zero-shot retrieval and/or Visual Question Answering (VQA). We aim for zero-shot retrieval and/or VQA and plan to leverage advanced models like XCLIP and Video-LLAMA encoders to enhance our research. This project is at the forefront of exploring the fusion of textual and visual data for efficient information retrieval.
 
-In this ongoing project, our mission is to implement a Retrieval-Augmented Generation (RAG) system using Video-LLAMA as the Language Model (LM) for zero-shot retrieval and/or Visual Question Answering (VQA). Our aim is zero-shot retrieval and/or Visual Question Answering (VQA). We plan to leverage advanced models like XCLIP and Video-LLAMA encoders to enhance our research. This project is at the forefront of exploring the fusion of textual and visual data for efficient information retrieval.
+2. [**Video Retrieval Application**](https://github.com/nargesbh/Video-text-retrieval-tool/blob/main/Video-Retrieval-report.pdf)
+   - **Duration**: Feb 2023 - Apr 2023
+   - Here, our goal was to develop a Video-Text Retrieval application using the MSR-VTT dataset. We focused on enabling users to retrieve relevant video scenes based on text queries. A notable feature of our approach was the use of the Xclip model's encoders to generate embeddings for both text and videos. We explored different Xclip encoder variants, including "microsoft/xclip-base-patch32," "microsoft/xclip-base-patch16," and "microsoft/xclip-large-patch14." This project provided practical experience in video-text retrieval and the application of state-of-the-art models for multimodal information retrieval.
 
-
-#### [Video Retrieval Application](https://github.com/nargesbh/Video-text-retrieval-tool/blob/main/Video-Retrieval-report.pdf)
-
-
-- **Duration**: Feb 2023 - Apr 2023
-
-In this project, our goal was to develop a Video-Text Retrieval application using the MSR-VTT dataset. We focused on enabling users to retrieve relevant video scenes based on text queries.
-A notable feature of our approach was the use of the Xclip model's encoders to generate embeddings for both text and videos. We explored different Xclip encoder variants, including "microsoft/xclip-base-patch32," "microsoft/xclip-base-patch16," and "microsoft/xclip-large-patch14."
-This project provided practical experience in video-text retrieval and the application of state-of-the-art models for multimodal information retrieval.
 
 
 ## [KU Leuven, Belgium](https://www.esat.kuleuven.be/english)
