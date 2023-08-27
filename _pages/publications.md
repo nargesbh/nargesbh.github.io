@@ -4,10 +4,10 @@ title: "Research Experience"
 permalink: /publications/
 author_profile: true
 ---
-## University of Hamburg, Germany
+## [University of Hamburg, Germany](https://www.google.com/search?client=safari&rls=en&q=LT+research+group+uni+hamburg&ie=UTF-8&oe=UTF-8)
 
 ### Research Assistant
-*Under Prof. Chriss Beimann and Florian Schneider*
+*Under [Prof. Chriss Beimann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html) and [Florian Schneider](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/florian-schneider.html)*
 
 #### State-of-the-Art Multi-Modal LLMs for Text-Video Retrieval
 - **Duration**: May 2023 - Present
@@ -25,12 +25,12 @@ A notable feature of our approach was the use of the Xclip model's encoders to g
 This project provided practical experience in video-text retrieval and the application of state-of-the-art models for multimodal information retrieval.
 
 
-## KU Leuven, Belgium
+## [KU Leuven, Belgium](https://www.esat.kuleuven.be/english)
 
 ### Visiting Scholar
-*Under Prof. Hugo Van Hamme*
+*Under [Prof. Hugo Van Hamme](https://www.kuleuven.be/wieiswie/en/person/00040707)*
 
-#### Project Title: Relating Output Symbol Probabilities With Confidence in an End-to-End Speech Recognizer
+#### [Relating Output Symbol Probabilities With Confidence in an End-to-End Speech Recognizer](https://github.com/nargesbh/Enhancement-of-Speech-Recognition-Network)
 - **Duration**: July 2022 - Sep 2022
 
 During my time at KU Leuven, we embarked on a fascinating project within the domain of speech recognition. Our primary focus was to evaluate the accuracy of a speech recognition network's predicted probabilities. We made a noteworthy discovery: the network exhibited an unexpected level of uncertainty in its predictions, despite achieving high accuracy with low probabilities. Our research aimed to address this intriguing challenge by introducing prediction patterns to a designed model. Through this approach, we sought to enhance the network's probability evaluation per character, ultimately improving the overall performance of the speech recognition system. This project delved deep into both the theoretical and practical aspects of speech recognition technology, contributing to advancements in this vital field.
