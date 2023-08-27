@@ -22,9 +22,5 @@ My academic journey also took me to Hamburg University, under the guidance of [P
 
 These experiences have not only affirmed my passion but have also fueled my determination to pursue these domains vigorously in the future.
 
-## A Journey of Exploration
-
-This website is more than a digital presence; it's an open invitation to join me on a journey of exploration and discovery. Together, we'll navigate the dynamic landscape of computer science, pushing boundaries, and uncovering the endless possibilities that lie ahead.
-
 Thank you for visiting, and I look forward to sharing my exciting adventures with you.
 
