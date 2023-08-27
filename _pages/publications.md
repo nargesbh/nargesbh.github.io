@@ -25,7 +25,7 @@ author_profile: true
 ### Visiting Scholar
 *Under [Prof. Hugo Van Hamme](https://www.kuleuven.be/wieiswie/en/person/00040707)*
 
-#### [Relating Output Symbol Probabilities With Confidence in an End-to-End Speech Recognizer](https://github.com/nargesbh/Enhancement-of-Speech-Recognition-Network)
+### [Relating Output Symbol Probabilities With Confidence in an End-to-End Speech Recognizer](https://github.com/nargesbh/Enhancement-of-Speech-Recognition-Network)
 - **Duration**: July 2022 - Sep 2022
 
 During my time at KU Leuven, we embarked on a fascinating project within the domain of speech recognition. Our primary focus was to evaluate the accuracy of a speech recognition network's predicted probabilities. We made a noteworthy discovery: the network exhibited an unexpected level of uncertainty in its predictions, despite achieving high accuracy with low probabilities. Our research aimed to address this intriguing challenge by introducing prediction patterns to a designed model. Through this approach, we sought to enhance the network's probability evaluation per character, ultimately improving the overall performance of the speech recognition system. This project delved deep into both the theoretical and practical aspects of speech recognition technology, contributing to advancements in this vital field.
