@@ -1,39 +1,16 @@
 ---
 layout: archive
-title: "Projects"
+title: "Talks and presentations"
 permalink: /talks/
 author_profile: true
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grapevine Leaves Classification</title>
-</head>
-<body>
-    <div style="text-align: center;">
-        <!-- Use a local image from your drive. Replace 'path_to_your_image.jpg' with the actual file path -->
-        <img src="path_to_your_image.jpg" alt="Project Image"><br>
-        <h1>Grapevine-Leaves-Classification</h1>
 
-        <section style="text-align: left; display: inline-block;">
-            <h2>Description</h2>
-            <p>This data mining final project aims to classify grapevine leaves using pre-trained models, autoencoders, and 10-fold cross-validation.</p>
-        </section>
+{% if site.talkmap_link == true %}
 
-        <section style="text-align: left; display: inline-block;">
-            <h2>Libraries Used</h2>
-            <p>tensorflow, keras, PIL, pandas, numpy, sklearn</p>
-        </section>
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 
-        <section style="text-align: left; display: inline-block;">
-            <h2>GitHub Repository</h2>
-            <p>Find the project's source code and resources on GitHub:
-                <a href="https://github.com/nargesbh/Grapevine-Leaves-Classification/tree/main" target="_blank">Repository</a>
-            </p>
-        </section>
-    </div>
-</body>
-</html>
+{% endif %}
 
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
