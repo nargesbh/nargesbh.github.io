@@ -1,13 +1,9 @@
 ---
-title: "Grapevine-Leaves-Classification"
-collection: talks
-type: "Project"
-permalink: /talks/first
-venue: "Data mining"
-date: July 2022
-location: "Tehran, Iran"
+layout: archive
+title: "Projects"
+permalink: /talks/
+author_profile: true
 ---
-
 
 # Grapevine Leaves Classification
 
@@ -26,3 +22,4 @@ This data mining final project aims to classify grapevine leaves using pre-train
 
 ## GitHub Repository
 Find the project's source code and resources on [GitHub Repository](https://github.com/nargesbh/Grapevine-Leaves-Classification/tree/main).
+
