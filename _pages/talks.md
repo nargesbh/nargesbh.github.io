@@ -7,7 +7,7 @@ author_profile: true
 
 # Grapevine-Leaves-Classification
 
-![Project Image](leaves2.jpg)
+![Project Image](leaves2-small.jpg)
 
 **Project Date**: July 2022
 
