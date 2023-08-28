@@ -7,7 +7,7 @@ author_profile: true
 
 # Grapevine-Leaves-Classification
 
-![Project Image](leaves2.jpg)
+<img src="leaves2.jpg" alt="Project Image" width="300">
 
 **Project Date**: July 2022
 
@@ -21,5 +21,3 @@ tensorflow, keras, PIL, pandas, numpy, sklearn
 
 ## GitHub Repository
 Find the project's source code and resources on [GitHub](https://github.com/nargesbh/Grapevine-Leaves-Classification).
-om/nargesbh/Grapevine-Leaves-Classification/tree/main).
-
