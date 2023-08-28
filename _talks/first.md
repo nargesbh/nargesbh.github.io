@@ -2,8 +2,8 @@
 title: "Grapevine-Leaves-Classification"
 collection: talks
 type: "Project"
-permalink: /talks/2014-02-01-talk-2
-venue: "Data mining final project"
+permalink: /talks/first
+venue: "Data mining"
 date: July 2022
 location: "Tehran, Iran"
 ---
