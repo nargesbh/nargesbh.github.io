@@ -19,7 +19,7 @@ tensorflow, keras, PIL, pandas, numpy, scikit-learn
 ---
 ## [Histopathology Image Classification](https://github.com/nargesbh/Histopathology-Image-Classification/tree/main)
 
-![Project Image](pr2.jpg)
+![Project Image](pr2.png)
 
 **Project Date**: July 2022
 *Image Processing project*
