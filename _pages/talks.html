@@ -167,7 +167,6 @@ body::after {
 
  </body>
  </html> -->
-
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -190,100 +189,89 @@ body::after {
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.5s ease, transform 0.5s ease;
+            animation: project-appear 1s forwards;
         }
 
-        .project-container img {
-            max-width: 300px;
-            margin-right: 20px;
-        }
-
-        .project-container h1 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .project-container h2 {
-            font-size: 16px;
-            margin-top: 10px;
-        }
-
-        .project-container p {
-            font-size: 14px;
-            margin: 5px 0;
-        }
-
-        .project-container .project-link {
-            font-size: 14px;
-        }
-
-        @media screen and (max-width: 600px) {
-            .project-container {
-                flex-direction: column;
-                align-items: flex-start;
-                text-align: center;
+        @keyframes project-appear {
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
+        }
 
-            .project-container img {
-                max-width: 100%;
-                margin-right: 0;
-            }
+        /* Add margin at the bottom of the page */
+        body::after {
+            content: "";
+            height: 200px; /* Adjust this value to control the margin size */
+            display: block;
         }
     </style>
 </head>
 <body>
-<div class="project-container">
-    <img src="https://raw.githubusercontent.com/nargesbh/nargesbh.github.io/master/_pages/leaves2-small.jpg" alt="Project Image" width="300">
+  <div class="project-container">
+    <img src="https://raw.githubusercontent.com/nargesbh/nargesbh.github.io/master/_pages/sentiment.png" alt="Project Image" width="300">
     <div>
-        <h1>Grapevine Leaves Classification</h1>
-        <p><strong>Project Date</strong>: July 2022</p>
-        <p><em>Data Mining Project</em></p>
-        <p>This project is the final assignment for a data mining course. The primary objective is to classify grapevine leaves into five distinct classes using various deep learning models, including MobileNetV2, ResNet50, EfficientNetB3, and InceptionNetV3. The project also explores the impact of autoencoders on classification accuracy and employs 10-fold cross-validation as a performance metric.</p>
-        <p><strong>Libraries Used</strong>: tensorflow, keras, PIL, pandas, numpy, sklearn</p>
-        <p class="project-link"><a href="https://github.com/nargesbh/Grapevine-Leaves-Classification" target="_blank">GitHub Repository</a></p>
+        <h1>Sentiment Analysis</h1>
+        <p><strong>Project Date</strong>: November 2021</p>
+        <p><em>Information Retrieval Mini-Project project</em></p>
+        <p>In the realm of natural language processing, understanding sentiment expressed in text is a
+           pivotal challenge. This project presents a Python solution to this problem by 
+           implementing sentiment analysis using a Naive Bayes classifier. Sentiment analysis,
+            often called opinion mining, revolves around the task of discerning the sentiment 
+            or emotional tone embedded within text, such as tweets.
+          This project encompasses two primary datasets: the SandersPosNeg dataset and OMD. The SandersPosNeg dataset features tweets categorized as 
+          either positive or negative sentiment, with a Naive Bayes classifier achieving an
+           accuracy of approximately 82.9%. Meanwhile, the OMD dataset, 
+           processed through the same steps, yields an accuracy of around 76.3%. 
+        </p>
+        <p><strong>Libraries Used</strong>: Python, Scikit-Learn, NLTK, NumPy, Pand</p>
+        <p class="project-link"><a href="https://github.com/nargesbh/sentiment-analysis" target="_blank">GitHub Repository</a></p>
     </div>
-</div>
+  </div>
 
-<div class="project-container">
-    <img src="https://raw.githubusercontent.com/nargesbh/nargesbh.github.io/master/_pages/pr2.png" alt="Project Image" width="300">
+  <div class="project-container">
+    <img src="https://raw.githubusercontent.com/nargesbh/nargesbh.github.io/master/_pages/sentiment.png" alt="Project Image" width="300">
     <div>
-        <h1>Histopathology Image Classification</h1>
-        <p><strong>Project Date</strong>: May 2023</p>
-        <p><em>Image Processing project</em></p>
-        <p>In this project, I explored various deep learning models for image classification, specifically in the context of histopathology image analysis. I trained and evaluated these models on a custom dataset and compared the performance of different model architectures. The models include the homework model, an updated model with modified convolutional layers, A pre-trained ResNet-50 model fine-tuned for our classification task.</p>
-        <p><strong>Libraries Used</strong>:  Python, TensorFlow, Keras, OpenCV, Pandas, NumPy, Matplotlib, Scikit-Learn, PIL, Seaborn</p>
-        <p class="project-link"><a href="https://github.com/nargesbh/Histopathology-Image-Classification/tree/main" target="_blank">GitHub Repository</a></p>
+        <h1>Sentiment Analysis</h1>
+        <p><strong>Project Date</strong>: November 2021</p>
+        <p><em>Information Retrieval Mini-Project project</em></p>
+        <p>In the realm of natural language processing, understanding sentiment expressed in text is a
+           pivotal challenge. This project presents a Python solution to this problem by 
+           implementing sentiment analysis using a Naive Bayes classifier. Sentiment analysis,
+            often called opinion mining, revolves around the task of discerning the sentiment 
+            or emotional tone embedded within text, such as tweets.
+          This project encompasses two primary datasets: the SandersPosNeg dataset and OMD. The SandersPosNeg dataset features tweets categorized as 
+          either positive or negative sentiment, with a Naive Bayes classifier achieving an
+           accuracy of approximately 82.9%. Meanwhile, the OMD dataset, 
+           processed through the same steps, yields an accuracy of around 76.3%. 
+        </p>
+        <p><strong>Libraries Used</strong>: Python, Scikit-Learn, NLTK, NumPy, Pand</p>
+        <p class="project-link"><a href="https://github.com/nargesbh/sentiment-analysis" target="_blank">GitHub Repository</a></p>
     </div>
-</div>
+  </div>
+
+  <div class="project-container">
+    <img src="https://raw.githubusercontent.com/nargesbh/nargesbh.github.io/master/_pages/sentiment.png" alt="Project Image" width="300">
+    <div>
+        <h1>Sentiment Analysis</h1>
+        <p><strong>Project Date</strong>: November 2021</p>
+        <p><em>Information Retrieval Mini-Project project</em></p>
+        <p>In the realm of natural language processing, understanding sentiment expressed in text is a
+           pivotal challenge. This project presents a Python solution to this problem by 
+           implementing sentiment analysis using a Naive Bayes classifier. Sentiment analysis,
+            often called opinion mining, revolves around the task of discerning the sentiment 
+            or emotional tone embedded within text, such as tweets.
+          This project encompasses two primary datasets: the SandersPosNeg dataset and OMD. The SandersPosNeg dataset features tweets categorized as 
+          either positive or negative sentiment, with a Naive Bayes classifier achieving an
+           accuracy of approximately 82.9%. Meanwhile, the OMD dataset, 
+           processed through the same steps, yields an accuracy of around 76.3%. 
+        </p>
+        <p><strong>Libraries Used</strong>: Python, Scikit-Learn, NLTK, NumPy, Pand</p>
+        <p class="project-link"><a href="https://github.com/nargesbh/sentiment-analysis" target="_blank">GitHub Repository</a></p>
+    </div>
+  </div>
 
 <!-- Repeat this structure for each project -->
-
-<script>
-    // JavaScript to add the animation when projects come into view
-    const projectContainers = document.querySelectorAll('.project-container');
-
-    const isInViewport = (elem) => {
-        const bounding = elem.getBoundingClientRect();
-        return (
-            bounding.top >= 0 &&
-            bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-        );
-    };
-
-    const animateProjects = () => {
-        projectContainers.forEach((container) => {
-            if (isInViewport(container)) {
-                container.style.opacity = '1';
-                container.style.transform = 'translateY(0)';
-            }
-        });
-    };
-
-    // Initial animation check
-    animateProjects();
-
-    // Add scroll event listener to trigger animations
-    window.addEventListener('scroll', animateProjects);
-</script>
 </body>
 </html>
 
