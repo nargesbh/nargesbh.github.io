@@ -39,14 +39,15 @@ tensorflow, keras, OpenCV, PIL, pandas, numpy, scikit-learn, Seaborn, Matplotlib
       body {
           font-family: Arial, sans-serif;
           padding: 20px;
-          height: 100%; /* Set a fixed height for the body */
+          max-width: calc(100% - 10cm); /* Set a maximum width for the entire page */
+          margin: 0 auto;
+          height: 80%; /* Set a fixed height for the body */
           overflow-y: scroll; /* Add a scrollbar if content overflows */
       }
       .project-container {
           display: flex;
           align-items: center;
-          max-width: 800px;
-          margin: 0 auto;
+          max-width: 100%; /* Allow project containers to take full width within the page */
           margin-bottom: 30px;
           border: 1px solid #ddd;
           padding: 20px;
