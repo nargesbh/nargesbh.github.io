@@ -8,7 +8,7 @@ author_profile: true
 ## [University of Hamburg, Germany](https://www.google.com/search?client=safari&rls=en&q=LT+research+group+uni+hamburg&ie=UTF-8&oe=UTF-8)
 
 ### Research Assistant
-*Under [Prof. Chriss Beimann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html) and [Florian Schneider](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/florian-schneider.html)*
+*Under [Prof. Chris Beimann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html) and [Florian Schneider](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/florian-schneider.html)*
 
 1. **State-of-the-Art Multi-Modal LLMs for Text-Video Retrieval**
    - **Duration**: May 2023 - Present
