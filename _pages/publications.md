@@ -12,7 +12,7 @@ author_profile: true
 
 1. **State-of-the-Art Multi-Modal LLMs for Text-Video Retrieval**
    - **Duration**: May 2023 - Present
-   - In this ongoing project, our mission is to implement a Retrieval-Augmented Generation (RAG) system using Video-LLAMA as the Language Model (LM) for zero-shot retrieval and/or Visual Question Answering (VQA). We aim for zero-shot retrieval and/or VQA and plan to leverage advanced models like XCLIP and Video-LLAMA encoders to enhance our research. This project is at the forefront of exploring the fusion of textual and visual data for efficient information retrieval.
+   - In this ongoing project, our mission is to implement a Retrieval-Augmented Generation system using Video-LLAMA as the Language Model for zero-shot retrieval. We aim for zero-shot retrieval and plan to leverage advanced models to enhance our research. This project is at the forefront of exploring the fusion of textual and visual data for efficient information retrieval.
 
 2. [**Video Retrieval Application**](https://github.com/nargesbh/Video-text-retrieval-tool/blob/main/Video-Retrieval-report.pdf)
    - **Duration**: Feb 2023 - Apr 2023
