@@ -7,110 +7,111 @@ author_profile: true
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0 auto;
+        }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
-  <style>
-      body {
-          font-family: Arial, sans-serif;
-          padding: 20px;
-          margin: 0 auto;
-      }
+        .project-container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
 
-      .project-container {
-          display: flex;
-          align-items: center;
-          border: 1px solid #ddd;
-          margin-bottom: 30px;
-          padding: 20px;
-      }
+        .project-container img {
+            max-width: 300px;
+            margin-right: 20px;
+        }
 
-      .project-container img {
-          max-width: 300px;
-          margin-right: 20px;
-      }
+        .project-container h1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
 
-      .project-container h1 {
-          font-size: 20px;
-          margin-bottom: 10px;
-      }
+        .project-container h2 {
+            font-size: 16px;
+            margin-top: 10px;
+        }
 
-      .project-container h2 {
-          font-size: 16px;
-          margin-top: 10px;
-      }
+        .project-container p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
 
-      .project-container p {
-          font-size: 14px;
-          margin: 5px 0;
-      }
+        .project-container .project-link {
+            font-size: 14px;
+        }
 
-      .project-container .project-link {
-          font-size: 14px;
-      }
+        @media screen and (max-width: 600px) {
+            .project-container {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: center;
+            }
 
-      @media screen and (max-width: 600px) {
-          .project-container {
-              flex-direction: column;
-              align-items: flex-start;
-              text-align: center;
-          }
+            .project-container img {
+                max-width: 100%;
+                margin-right: 0;
+            }
+        }
 
-          .project-container img {
-              max-width: 100%;
-              margin-right: 0;
-          }
-      }
+        /* Add margin at the bottom of the page */
+        body::after {
+            content: "";
+            height: 200px; /* Adjust this value to control the margin size */
+            display: block;
+        }
 
-      /* Add margin at the bottom of the page */
-      body::after {
-          content: "";
-          height: 200px; /* Adjust this value to control the margin size */
-          display: block;
-      }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            margin-top: 30px; /* Add margin at the top of the table */
+            margin-bottom: 30px; /* Add margin at the end of the table */
+        }
 
-      table {
-          width: 80%;
-          border-collapse: collapse;
-          margin: 0 auto;
-          margin-top: 30px; /* Add margin at the top of the table */
-      }
+        table, th, td {
+            border: 1px solid #666;
+        }
 
-      table, th, td {
-          border: 1px solid #666;
-      }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
 
-      th, td {
-          padding: 10px;
-          text-align: left;
-      }
+        th {
+            background-color: #f2f2f2;
+        }
 
-      th {
-          background-color: #f2f2f2;
-      }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
 
-      a {
-          text-decoration: none;
-          color: #333;
-      }
+        a:hover {
+            font-weight: bold;
+        }
+        
+        /* Center-align the Table of Contents heading */
+        h2 {
+            text-align: center;
+        }
 
-      a:hover {
-          font-weight: bold;
-      }
-      
-      /* Center-align the Table of Contents heading */
-      h2 {
-          text-align: center;
-      }
-
-      /* Add margin between the end of the table of contents and the start of the first project */
-      .project-container:first-child {
-          margin-top: 30px;
-      }
-  </style>
+        /* Add margin between the end of the table of contents and the start of the first project */
+        .project-container:first-child {
+            margin-top: 30px;
+        }
+    </style>
 </head>
+
 
 <body>
     <h2>Table of Contents</h2>
