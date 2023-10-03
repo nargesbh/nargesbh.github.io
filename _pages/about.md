@@ -12,7 +12,7 @@ I'm a 22-year-old senior pursuing a Bachelor of Science in Computer Science at t
 
 ## Academic Aspirations
 
-I am currently a senior student pursuing a Bachelor of Science in Computer Science at the University of Tehran, Iran. However, my journey doesn't stop here; it's merely the beginning. I am looking for fully funded opportunities for my Master's or a direct PhD, focusing on the captivating fields of multimodal signal processing, computer vision, and natural language processing.
+I am currently a senior student pursuing a Bachelor of Science in Computer Science at the University of Tehran, Iran. However, my journey doesn't stop here; it's merely the beginning. I am seeking opportunities in multimodal signal processing, which encompasses the integration of computer vision and natural language processing, for either my Master's or a direct PhD program.
 
 ## Hands-On Expertise
 
